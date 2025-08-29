@@ -9,4 +9,13 @@ class Alumno extends Model
 {
     /** @use HasFactory<\Database\Factories\AlumnoFactory> */
     use HasFactory;
+    //protected $table = 'SilaTablaNoseLlamaIgual';
+
+    protected $fillable = [
+        'nombre',
+        'numero_control',
+        'fecha_nacimiento',
+        'sexo',
+        'especialidad'
+    ];
 }

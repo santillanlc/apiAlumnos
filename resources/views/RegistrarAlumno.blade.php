@@ -4,7 +4,9 @@
 
 @section('contenido')
 
-<form action="" method="POST">
+<form action=" {{ url('/guardarAlumno') }}" method="POST">
+   <!-- larabel inyecta un token para validar origen y destino -->
+    @csrf
     <div class="form-group mb-4">
         <label for="">Nombre:</label>
         <input type="text" class="form-control" name="nombre" required>

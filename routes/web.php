@@ -17,3 +17,4 @@ Route::get('/alumno/{id}', [AlumnoController::class, 'eliminarAlumno']);
 Route::get('/editarAlumno/{id}', [AlumnoController::class,'editarAlumno']);
 Route::post('/actualizarAlumno/{id}', [AlumnoController::class,'actualizarAlumno']);
 //Fin del archivo
+//Cambio de Luis santillan
